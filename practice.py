@@ -197,3 +197,26 @@ Quiz) 당신은 최근에 코딩 스터디 모임을 새로 만들었습니다.
 # date = randint(4, 28)
 # print("오프라인 스터디 모임 날짜는 매월"+ str(date) +" 일로 선정되었습니다.")
 
+'''문자열'''
+
+# sentense = '나는 소년입니다'
+# print(sentense)
+# sentense2 = '파이썬은 쉬워요'
+# print(sentense2)
+# sentense3 = """
+# 나는 소년이고,
+# 파이썬은 쉬워요
+# """
+# print(sentense3)
+
+'''슬라이싱'''
+
+jumin = "990120-1234567"
+
+print("성별 : " + jumin[7]) # 1
+print("연도 : " + jumin[0:2]) # 0번째부터 2번째 직전까지
+print("월 : " + jumin[2:4]) # 01
+print("일자 : " + jumin[4:6]) # 20
+
+print("생년월일 : " + jumin[:6]) # 990120
+print("뒤 7자리 : " + jumin[7:]) # 1234567
